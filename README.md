@@ -13,3 +13,9 @@ This script will either take an Office component installer/updater of your choos
 - Saves the VL_Serializer.pkg to a specific location on the system to eliminate future prompts to select it
 - Appends the name of the PKG with "_Repackaged.pkg"
 - Reveals the repackaged PKG in Finder when done
+
+### Run With Path as Parameter
+You can run this script with a parameter if you choose like so:
+```
+./create_microsoft_office_patch_pkgs.sh "~/Desktop/Microsoft_Word_16.23.19030902_Installer.pkg"
+```
