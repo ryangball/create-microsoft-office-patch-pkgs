@@ -19,3 +19,4 @@ You can run this script with a parameter if you choose like so:
 ```
 ./create_microsoft_office_patch_pkgs.sh "~/Desktop/Microsoft_Word_16.23.19030902_Installer.pkg"
 ```
+Otherwise if no parameter is specified, you will get a file select dialog to select the Office component installer/updater pkg.
